@@ -55,6 +55,13 @@ public class MainClass {
 				System.out.println(i + " " + j);
 			}
 		}*/
+		
+		Study b = new Study();
+		b.number = 30;
+		Study b2 = new Study();
+		b2 = b;
+		b = null;
+		System.out.println("number 값 :" + b2.number );
 	
 	}
 
